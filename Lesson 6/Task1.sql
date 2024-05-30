@@ -1,7 +1,8 @@
-USE HW_06;
-
 -- 1. Создайте таблицу users_old, аналогичную таблице users. Создайте процедуру, с помощью которой можно переместить любого (одного) 
 -- пользователя из таблицы users в таблицу users_old. (использование транзакции с выбором commit или rollback – обязательно).
+
+USE lesson_4;
+
 
 DROP TABLE IF EXISTS users_old;
 CREATE TABLE users_old (
